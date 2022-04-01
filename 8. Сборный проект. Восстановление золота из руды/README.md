@@ -1,14 +1,64 @@
-# DS_Projects
+## Восстановление золота из руды
+Необходимо подготовить прототип модели машинного обучения для «Цифры». Компания разрабатывает решения для эффективной работы промышленных предприятий.
 
-Проекты, выполеннные в рамках программы Data Science в Яндекс.Практикум 
+Модель должна предсказать коэффициент восстановления золота из золотосодержащей руды, используя данные с параметрами добычи и очистки.
 
-| № | **Проект**    | **Jupyter Notebook** | **Описание** | **Библиотеки python**    |  
-|:--|:--------------|:---------------------|:-------------|:-------------------------|  
-| 1 | [**Предобработка данных. Надёжность заёмщиков**](https://github.com/JuliaEdom/DS_Projects/tree/main/1.%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.%20%D0%9D%D0%B0%D0%B4%D1%91%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B7%D0%B0%D1%91%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/1.%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.%20%D0%9D%D0%B0%D0%B4%D1%91%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B7%D0%B0%D1%91%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2/Pre-process_bank_borrowers.ipynb) | Влияние семейного положения, количества детей клиента и других признаков на возврат кредита в срок | pandas, pymystem3 |
-| 2 | [**Исследовательский анализ. Объявления о продаже квартир**](https://github.com/JuliaEdom/DS_Projects/tree/main/2.%20%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9E%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/2.%20%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9E%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/Eda_real_estate.ipynb) | Определение рыночной стоимости объектов недвижимости | pandas, matplotlib, seaborn, geodesic, nominatim |  
-| 3 | [**Статистический анализ. Перспективные тарифы**](https://github.com/JuliaEdom/DS_Projects/tree/main/3.%20%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D1%8B) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/3.%20%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D1%8B/StatsAn_tariffs_smart%26ultra.ipynb) | Анализ тарифов, поведения пользователей, выбор лучшего тарифа | pandas, scipy,-matplotlib, seaborn |  
-| 4 | [**Сбрный проект. Успешность игр**](https://github.com/JuliaEdom/DS_Projects/tree/main/4.%20%D0%A1%D0%B1%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%A3%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%D0%B3%D1%80) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/4.%20%D0%A1%D0%B1%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%A3%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%D0%B3%D1%80/SatsAn_Games.ipynb) | Анализ данных по продажам игр, оценкам пользователей и экспертов, жанрам и платформам | pandas, scipy,-,matplotlib, seaborn, datasist |  
-| 5 | [**Введение в ML. Рекомендация тарифов**](https://github.com/JuliaEdom/DS_Projects/tree/main/5.%20%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20ML.%20%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/5.%20%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20ML.%20%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2/ML_tariffs.ipynb) | Построение модели подбора мобильного тарифа | pandas, sklearn, seaborn | 
-| 6 | [**Обучение с учителем. Отток клиентов**](https://github.com/JuliaEdom/DS_Projects/tree/main/6.%20%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%20%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC.%20%D0%9E%D1%82%D1%82%D0%BE%D0%BA%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/6.%20%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%20%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC.%20%D0%9E%D1%82%D1%82%D0%BE%D0%BA%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2/ML_churn_bank.ipynb) | Прогноз оттока клиентов банка | pandas, sklearn, catboost, matplotlib, seaborn |  
-| 7 | [**ML в бизнесе. Выбор локации для скважины**](https://github.com/JuliaEdom/DS_Projects/tree/main/7.%20ML%20%D0%B2%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B5.%20%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D1%8B) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/7.%20ML%20%D0%B2%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B5.%20%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D1%8B/ML_drillings.ipynb) | Определение наиболее доходного региона для добычи | pandas, sklearn, scipy, matplotlib, seaborn |  
-| 8 | [**Сборный проект. Восстановление золота из руды**](https://github.com/JuliaEdom/DS_Projects/tree/main/8.%20%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%20%D0%B8%D0%B7%20%D1%80%D1%83%D0%B4%D1%8B) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/8.%20%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%20%D0%B8%D0%B7%20%D1%80%D1%83%D0%B4%D1%8B/ML_gold_extract_forecast.ipynb) | Предсказание коэффициента восстановления золота из золотосодержащей руды | - pandas, numpy, sklearn, catboost, matplotlib, seaborn |  
+Модель поможет оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками.
+
+Технологический процесс включает в себя стадию флотации (обогащение), а также 2 стадии очистки. На выходе каждой стадии получают концентрат и отвальные хвосты.
+
+### Описание данных
+
+Технологический процесс
+- Rougher feed — исходное сырье
+- Rougher additions (или reagent additions) — флотационные реагенты: Xanthate, Sulphate, Depressant
+- Rougher process (англ. «грубый процесс») — флотация
+- Rougher tails — отвальные хвосты
+- Float banks — флотационная установка
+- Cleaner process — очистка
+- Rougher Au — черновой концентрат золота
+- Final Au — финальный концентрат золота
+
+Параметры этапов
+- air amount — объём воздуха
+- fluid levels — уровень жидкости
+- feed size — размер гранул сырья
+- feed rate — скорость подачи
+
+Наименование признаков
+
+    Наименование признаков должно быть такое:
+    [этап].[тип_параметра].[название_параметра]
+    Пример: rougher.input.feed_ag
+
+Возможные значения для блока [этап]:
+- rougher — флотация
+- primary_cleaner — первичная очистка
+- secondary_cleaner — вторичная очистка
+- final — финальные характеристики
+
+Возможные значения для блока [тип_параметра]:
+- input — параметры сырья
+- output — параметры продукта
+- state — параметры, характеризующие текущее состояние этапа
+- calculation — расчётные характеристики
+Модель необходимо оценить на основании метрики качества — sMAPE (англ. Symmetric Mean Absolute Percentage Error, «симметричное среднее абсолютное процентное отклонение»)
+
+### План проекта
+
+1. Подготовка данных
+- Посмотрим на исходные данные
+- Проверим расчет эффективночти обогащения
+- Признаки, недоступные в тестовой выборке
+- Предобработка данных
+2. Анализ данных
+- Изменение концентрации металлов (Au, Ag, Pb) на различных этапах очистки
+- Сравнение распределения размеров гранул сырья на обучающей и тестовой выборках
+- Исследование суммарной концентрации всех веществ на разных стадиях: в сырье, в черновом и финальном концентратах
+3. Модель
+- Подготовим признаки для обучения и тестирования
+- Определим функцию sMAPE, которая считает метрику качества модели
+- Масштабирование данных
+- Оценка качества моделей
+- Тестирование моделей<br>
+<br>Заключение

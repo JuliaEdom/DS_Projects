@@ -1,14 +1,40 @@
-# DS_Projects
+## Исследование объявлений о продаже квартир
 
-Проекты, выполеннные в рамках программы Data Science в Яндекс.Практикум 
+Необходимо выявить влияние отдельных признаков объектов недвижимости на их рыночную стоимость.
 
-| № | **Проект**    | **Jupyter Notebook** | **Описание** | **Библиотеки python**    |  
-|:--|:--------------|:---------------------|:-------------|:-------------------------|  
-| 1 | [**Предобработка данных. Надёжность заёмщиков**](https://github.com/JuliaEdom/DS_Projects/tree/main/1.%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.%20%D0%9D%D0%B0%D0%B4%D1%91%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B7%D0%B0%D1%91%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/1.%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.%20%D0%9D%D0%B0%D0%B4%D1%91%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B7%D0%B0%D1%91%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2/Pre-process_bank_borrowers.ipynb) | Влияние семейного положения, количества детей клиента и других признаков на возврат кредита в срок | pandas, pymystem3 |
-| 2 | [**Исследовательский анализ. Объявления о продаже квартир**](https://github.com/JuliaEdom/DS_Projects/tree/main/2.%20%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9E%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/2.%20%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9E%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/Eda_real_estate.ipynb) | Определение рыночной стоимости объектов недвижимости | pandas, matplotlib, seaborn, geodesic, nominatim |  
-| 3 | [**Статистический анализ. Перспективные тарифы**](https://github.com/JuliaEdom/DS_Projects/tree/main/3.%20%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D1%8B) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/3.%20%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D1%8B/StatsAn_tariffs_smart%26ultra.ipynb) | Анализ тарифов, поведения пользователей, выбор лучшего тарифа | pandas, scipy,-matplotlib, seaborn |  
-| 4 | [**Сбрный проект. Успешность игр**](https://github.com/JuliaEdom/DS_Projects/tree/main/4.%20%D0%A1%D0%B1%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%A3%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%D0%B3%D1%80) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/4.%20%D0%A1%D0%B1%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%A3%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%D0%B3%D1%80/SatsAn_Games.ipynb) | Анализ данных по продажам игр, оценкам пользователей и экспертов, жанрам и платформам | pandas, scipy,-,matplotlib, seaborn, datasist |  
-| 5 | [**Введение в ML. Рекомендация тарифов**](https://github.com/JuliaEdom/DS_Projects/tree/main/5.%20%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20ML.%20%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/5.%20%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20ML.%20%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2/ML_tariffs.ipynb) | Построение модели подбора мобильного тарифа | pandas, sklearn, seaborn | 
-| 6 | [**Обучение с учителем. Отток клиентов**](https://github.com/JuliaEdom/DS_Projects/tree/main/6.%20%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%20%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC.%20%D0%9E%D1%82%D1%82%D0%BE%D0%BA%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/6.%20%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%20%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC.%20%D0%9E%D1%82%D1%82%D0%BE%D0%BA%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2/ML_churn_bank.ipynb) | Прогноз оттока клиентов банка | pandas, sklearn, catboost, matplotlib, seaborn |  
-| 7 | [**ML в бизнесе. Выбор локации для скважины**](https://github.com/JuliaEdom/DS_Projects/tree/main/7.%20ML%20%D0%B2%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B5.%20%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D1%8B) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/7.%20ML%20%D0%B2%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B5.%20%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D1%8B/ML_drillings.ipynb) | Определение наиболее доходного региона для добычи | pandas, sklearn, scipy, matplotlib, seaborn |  
-| 8 | [**Сборный проект. Восстановление золота из руды**](https://github.com/JuliaEdom/DS_Projects/tree/main/8.%20%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%20%D0%B8%D0%B7%20%D1%80%D1%83%D0%B4%D1%8B) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/8.%20%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%20%D0%B8%D0%B7%20%D1%80%D1%83%D0%B4%D1%8B/ML_gold_extract_forecast.ipynb) | Предсказание коэффициента восстановления золота из золотосодержащей руды | - pandas, numpy, sklearn, catboost, matplotlib, seaborn |  
+Исходные данные - архив объявлений сервиса Яндекс.Недвижимость о продаже квартир в Санкт-Петербурге и соседних населённых пунктах за несколько лет.
+
+По каждой квартире на продажу доступны два вида данных. Первые вписаны пользователем, вторые получены автоматически на основе картографических данных. Например, расстояние до центра, аэропорта, ближайшего парка и водоёма.
+
+### Описание данных
+
+- airports_nearest — расстояние до ближайшего аэропорта в метрах (м)
+- balcony — число балконов
+- ceiling_height — высота потолков (м)
+- cityCenters_nearest — расстояние до центра города (м)
+- days_exposition — сколько дней было размещено объявление (от публикации до снятия)
+- first_day_exposition — дата публикации
+- floor — этаж
+- floors_total — всего этажей в доме
+- is_apartment — апартаменты (булев тип)
+- kitchen_area — площадь кухни в квадратных метрах (м²)
+- last_price — цена на момент снятия с публикации
+- living_area — жилая площадь в квадратных метрах (м²)
+- locality_name — название населённого пункта
+- open_plan — свободная планировка (булев тип)
+- parks_around3000 — число парков в радиусе 3 км
+- parks_nearest — расстояние до ближайшего парка (м)
+- ponds_around3000 — число водоёмов в радиусе 3 км
+- ponds_nearest — расстояние до ближайшего водоёма (м)
+- rooms — число комнат
+- studio — квартира-студия (булев тип)
+- total_area — площадь квартиры в квадратных метрах (м²)
+- total_images — число фотографий квартиры в объявлении
+
+### План проекта
+
+ 1. Исходные данные, общая информация
+ 2. Предобработка данных
+ 3. Расчёты и добавление результатов
+ 4. Исследовательский анализ данных<br>
+ Заключение

@@ -1,14 +1,55 @@
-# DS_Projects
+## Определение перспективного тарифа для телеком-компании
 
-Проекты, выполеннные в рамках программы Data Science в Яндекс.Практикум 
+Компания «Мегалайн», федеральный оператор сотовой связи, предлагает клиентам два тарифных плана: «Смарт» и «Ультра». Неообходимо оценить, какой тариф приносит больше денег по небольшой выборке клиентов из 500 пользователей «Мегалайна» за 2018 год. Нужно проанализировать поведение клиентов и сделать вывод — какой тариф лучше.
 
-| № | **Проект**    | **Jupyter Notebook** | **Описание** | **Библиотеки python**    |  
-|:--|:--------------|:---------------------|:-------------|:-------------------------|  
-| 1 | [**Предобработка данных. Надёжность заёмщиков**](https://github.com/JuliaEdom/DS_Projects/tree/main/1.%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.%20%D0%9D%D0%B0%D0%B4%D1%91%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B7%D0%B0%D1%91%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/1.%20%D0%9F%D1%80%D0%B5%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85.%20%D0%9D%D0%B0%D0%B4%D1%91%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B7%D0%B0%D1%91%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2/Pre-process_bank_borrowers.ipynb) | Влияние семейного положения, количества детей клиента и других признаков на возврат кредита в срок | pandas, pymystem3 |
-| 2 | [**Исследовательский анализ. Объявления о продаже квартир**](https://github.com/JuliaEdom/DS_Projects/tree/main/2.%20%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9E%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/2.%20%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9E%D0%B1%D1%8A%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D0%B5%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/Eda_real_estate.ipynb) | Определение рыночной стоимости объектов недвижимости | pandas, matplotlib, seaborn, geodesic, nominatim |  
-| 3 | [**Статистический анализ. Перспективные тарифы**](https://github.com/JuliaEdom/DS_Projects/tree/main/3.%20%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D1%8B) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/3.%20%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7.%20%D0%9F%D0%B5%D1%80%D1%81%D0%BF%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D1%8B/StatsAn_tariffs_smart%26ultra.ipynb) | Анализ тарифов, поведения пользователей, выбор лучшего тарифа | pandas, scipy,-matplotlib, seaborn |  
-| 4 | [**Сбрный проект. Успешность игр**](https://github.com/JuliaEdom/DS_Projects/tree/main/4.%20%D0%A1%D0%B1%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%A3%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%D0%B3%D1%80) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/4.%20%D0%A1%D0%B1%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%A3%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%D0%B3%D1%80/SatsAn_Games.ipynb) | Анализ данных по продажам игр, оценкам пользователей и экспертов, жанрам и платформам | pandas, scipy,-,matplotlib, seaborn, datasist |  
-| 5 | [**Введение в ML. Рекомендация тарифов**](https://github.com/JuliaEdom/DS_Projects/tree/main/5.%20%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20ML.%20%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/5.%20%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20ML.%20%D0%A0%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F%20%D1%82%D0%B0%D1%80%D0%B8%D1%84%D0%BE%D0%B2/ML_tariffs.ipynb) | Построение модели подбора мобильного тарифа | pandas, sklearn, seaborn | 
-| 6 | [**Обучение с учителем. Отток клиентов**](https://github.com/JuliaEdom/DS_Projects/tree/main/6.%20%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%20%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC.%20%D0%9E%D1%82%D1%82%D0%BE%D0%BA%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/6.%20%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%20%D1%83%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC.%20%D0%9E%D1%82%D1%82%D0%BE%D0%BA%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%D0%BE%D0%B2/ML_churn_bank.ipynb) | Прогноз оттока клиентов банка | pandas, sklearn, catboost, matplotlib, seaborn |  
-| 7 | [**ML в бизнесе. Выбор локации для скважины**](https://github.com/JuliaEdom/DS_Projects/tree/main/7.%20ML%20%D0%B2%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B5.%20%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D1%8B) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/7.%20ML%20%D0%B2%20%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81%D0%B5.%20%D0%92%D1%8B%D0%B1%D0%BE%D1%80%20%D0%BB%D0%BE%D0%BA%D0%B0%D1%86%D0%B8%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BA%D0%B2%D0%B0%D0%B6%D0%B8%D0%BD%D1%8B/ML_drillings.ipynb) | Определение наиболее доходного региона для добычи | pandas, sklearn, scipy, matplotlib, seaborn |  
-| 8 | [**Сборный проект. Восстановление золота из руды**](https://github.com/JuliaEdom/DS_Projects/tree/main/8.%20%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%20%D0%B8%D0%B7%20%D1%80%D1%83%D0%B4%D1%8B) | [notebook](https://github.com/JuliaEdom/DS_Projects/blob/main/8.%20%D0%A1%D0%B1%D0%BE%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.%20%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%20%D0%B8%D0%B7%20%D1%80%D1%83%D0%B4%D1%8B/ML_gold_extract_forecast.ipynb) | Предсказание коэффициента восстановления золота из золотосодержащей руды | - pandas, numpy, sklearn, catboost, matplotlib, seaborn |  
+### Описание данных
+
+Таблица users (информация о пользователях):<br>
+
+        - user_id — уникальный идентификатор пользователя
+        - first_name — имя пользователя
+        - last_name — фамилия пользователя
+        - age — возраст пользователя (годы)
+        - reg_date — дата подключения тарифа (день, месяц, год)
+        - churn_date — дата прекращения пользования тарифом 
+        - city — город проживания пользователя
+        - tariff — название тарифного плана
+
+Таблица calls (информация о звонках):
+
+        - id — уникальный номер звонка
+        - call_date — дата звонка
+        - duration — длительность звонка в минутах
+        - user_id — идентификатор пользователя, сделавшего звонок
+
+Таблица messages (информация о сообщениях):
+
+        - id — уникальный номер сообщения
+        - message_date — дата сообщения
+        - user_id — идентификатор пользователя, отправившего сообщение
+
+Таблица internet (информация об интернет-сессиях):
+
+        - id — уникальный номер сессии
+        - mb_used — объём потраченного за сессию интернет-трафика (в мегабайтах)
+        - session_date — дата интернет-сессии
+        - user_id — идентификатор пользователя
+
+Таблица tariffs (информация о тарифах):
+
+        - tariff_name — название тарифа
+        - rub_monthly_fee — ежемесячная абонентская плата в рублях
+        - minutes_included — количество минут разговора в месяц, включённых в абонентскую плату
+        - messages_included — количество сообщений в месяц, включённых в абонентскую плату
+        - mb_per_month_included — объём интернет-трафика, включённого в абонентскую плату (в мегабайтах)
+        - rub_per_minute — стоимость минуты разговора сверх тарифного пакета 
+        - rub_per_message — стоимость отправки сообщения сверх тарифного пакета
+        - rub_per_gb — стоимость дополнительного гигабайта интернет-трафика сверх тарифного пакета (1 гигабайт = 1024 мегабайта)
+
+## План проекта
+
+1. Исходные данные, общая информация
+2. Обработка данных
+3. Поведение клиентов оператора
+4. Проверка<br> 
+Заключение
